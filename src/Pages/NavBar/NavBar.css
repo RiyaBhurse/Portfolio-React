@@ -1,0 +1,49 @@
+header {
+    position: sticky;
+    top: 0;
+}
+
+.NavBar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Add a background color to make it stand out */
+    /*position: fixed; /* Fix the navbar to the top */
+    /*top: 0; /* Align it to the top */
+    width: 100%; /* Make it span the full width of the page */
+    z-index: 1000; /* Ensure it stays above other content */
+
+    
+    
+}
+.NavItem{
+    margin: 0 15px;
+}
+.NavItem a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 0;
+    position: relative;
+    font-size: 2em;
+    font-display: bold;
+}
+
+
+.NavItem a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.3s ease;
+}
+.NavItem a:hover::after {
+    width: 50%;  /* Change width to a larger value on hover */
+}
+.NavItem a.active::after {
+    width: 100%;  /* Change width to a larger value on hover */
+}
+
+
