@@ -37,10 +37,10 @@ header {
     height: 2px;
     width: 0%;
     background-color: rgb(255, 255, 255);
-    transition: width 0.3s ease;
+    transition: width 0.5s ease;
 }
 .NavItem a:hover::after {
-    width: 50%;  /* Change width to a larger value on hover */
+    width: 100%;  /* Change width to a larger value on hover */
 }
 .NavItem a.active::after {
     width: 100%;  /* Change width to a larger value on hover */

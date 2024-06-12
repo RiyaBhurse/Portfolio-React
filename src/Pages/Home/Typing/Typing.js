@@ -8,20 +8,8 @@ function Typing({
     const [displayText, setDisplayedText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
     const [index, setIndex] = useState(0);
-    useEffect(()=>{ 
-        const handelTyping = () => {
+    var str = "";
+    
 
-        };
-        const timeOut = setTimeout(handelTyping,
-            isDeleting ? deletingSpeed : typingSpeed
-        );
-        
-
-    })
-    return (
-        <div>
-            <h1>Typing</h1>
-        </div>
-    )
 }
 export default Typing;
