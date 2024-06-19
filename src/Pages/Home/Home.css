@@ -1,8 +1,36 @@
-body{
+.body{
     background-color: black;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     /* display: flex; */
     justify-content: center;
     align-items: center;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nameDiv{
+    font-size: 80px;
+}
+.typing-effect{
+    font-size: 40px;
+    color: white;
+}
+.icons{
+    margin-top: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
 }

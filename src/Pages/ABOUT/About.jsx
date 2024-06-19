@@ -13,7 +13,7 @@ function About({ header, img, text, link,position,bgColor }) {
 
       </div>
       <div className="img-parent">
-        <img src={img}/>
+        <img src={img} className="img"/>
       </div>
 
     </div>

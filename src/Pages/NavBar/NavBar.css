@@ -3,10 +3,16 @@ header {
     top: 0;
 }
 
+nav{
+    height: 100%;
+    width: 100%;
+}
+
 .NavBar{
     list-style: none;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     background-color: #333; /* Add a background color to make it stand out */
@@ -14,6 +20,7 @@ header {
     /*top: 0; /* Align it to the top */
     width: 100%; /* Make it span the full width of the page */
     z-index: 1000; /* Ensure it stays above other content */
+    height: 80px;
 
     
     
@@ -44,6 +51,11 @@ header {
 }
 .NavItem a.active::after {
     width: 100%;  /* Change width to a larger value on hover */
+}
+.icon{
+    height: 70px;
+    width: 60px;
+    padding-bottom: 10px;
 }
 
 
