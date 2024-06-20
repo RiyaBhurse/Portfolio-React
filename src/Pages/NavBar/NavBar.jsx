@@ -1,22 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 import icon from './icon.png';
 
-function NavBar(){
-    return(
-        <nav>
-            <ul className="NavBar">
-                <li className='NavItem'><img src={icon} alt="icon" className="icon"/></li>
-                <li className="NavItem"><a href='link'>Home</a></li>
-                <li className="NavItem"><a href='link'>About</a></li>
-                <li className="NavItem"><a href='link'>Skills</a></li>
-                <li className="NavItem"><a href='link'>Education</a></li>
-                <li className="NavItem"><a href='link'>Experience</a></li>
-                <li className="NavItem"><a href='link'>Projects</a></li>
-                <li className="NavItem"><a href='link'>Resume</a></li>
-            </ul>
-        </nav>
-    )
+function NavBar() {
+  return (
+    <nav>
+      <ul className="NavBar">
+        <li className='NavItem'><img src={icon} alt="icon" className="icon" /></li>
+        <li className="NavItem"><Link to="/">Home</Link></li>
+        <li className="NavItem"><Link to="/about">About</Link></li>
+        <li className="NavItem"><Link to="/skills">Skills</Link></li>
+        <li className="NavItem"><Link to="/projects">Projects</Link></li>
+        <li className="NavItem"><Link to="/resume">Resume</Link></li>
+      </ul>
+    </nav>
+  );
 }
 
 export default NavBar;

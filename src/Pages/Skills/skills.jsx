@@ -9,12 +9,15 @@ import { DiJava } from 'react-icons/di';
 import { SiSpringboot } from 'react-icons/si';
 import { BiMath } from 'react-icons/bi';
 import {SiTreehouse} from 'react-icons/si';
+import { DiRasberryPi } from 'react-icons/di';
 
 function Skills(){
     return (
         <>
         <div className="Skills"> Skills 
         <div className='skillIcon'>
+        I love to learn new things and experiment with new technologies.
+        These are some of the major languages, technologies, tools and platforms I have worked with:
             <div className='innerIconSkill'><SiPython/> Python </div>
             <div className='innerIconSkill'><SiJavascript/> JavaScript </div>
             <div className='innerIconSkill'><SiReact/> React </div>
@@ -25,10 +28,7 @@ function Skills(){
             <div className='innerIconSkill'><SiSpringboot/> Springboot </div><br/>
             <div className='innerIconSkill'><BiMath/> OOP </div>
             <div className='innerIconSkill'><SiTreehouse/> DSA </div>
-
-            
-           
-
+            <div className='innerIconSkill'><DiRasberryPi/> Raspberry Pi </div>           
         </div>
         </div>
         </>

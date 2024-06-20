@@ -12,7 +12,7 @@
 }
 .skillIcon{
     font-size: 30px;
-    color: white;
+    /* color: white; */
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
