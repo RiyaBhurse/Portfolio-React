@@ -87,4 +87,10 @@
       padding: 10px;
     }
   }
-  
+  @media (max-width: 800px) {
+    .img {
+        width: 9rem;
+        height: 9rem;
+        margin-top: 8rem;
+    }
+}
