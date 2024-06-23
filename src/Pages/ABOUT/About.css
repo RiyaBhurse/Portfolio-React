@@ -55,3 +55,36 @@
 .green {
     background-color: green;
 }
+/* Media query for smaller screens (mobile) */
+@media (max-width: 800px) {
+    .About {
+        flex-direction: column;
+    }
+    .text-parent {
+        width: 100%;
+    }
+    .img {
+        width: 300px;
+        height: 300px;
+    }
+}
+/* About.css */
+
+/* About page specific styles */
+.about-container {
+    padding: 20px;
+    color: white;
+    text-align: left;
+  }
+  
+  .about-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 10px;
+    }
+  }
+  

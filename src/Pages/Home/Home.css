@@ -34,3 +34,29 @@ a{
     color: white;
     text-decoration: none;
 }
+/* Media query for smaller screens (mobile) */
+@media (max-width: 600px) {
+    .nameDiv{
+        font-size: 40px;
+    }
+    .typing-effect{
+        font-size: 20px;
+    }
+    .icons{
+        font-size: 20px;
+    }
+}
+/* Home.css */
+
+/* Home page specific styles */
+.home-container {
+    padding: 20px;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .home-container {
+      padding: 10px;
+    }
+  }
+  

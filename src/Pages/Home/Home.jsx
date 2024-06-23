@@ -4,6 +4,8 @@ import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
 import { SiLeetcode } from 'react-icons/si';
+import { BsYoutube } from 'react-icons/bs';
+import { BsTwitterX } from 'react-icons/bs';
 
 function Home() {
     return (
@@ -13,7 +15,7 @@ function Home() {
                     <h1 className="nameDiv">Riya Bhurse</h1>
                     <Typing
                         text={[
-                            "I'm a software engineer.",
+                            "I'm a software engineer",
                             "I'm Loving DSA",
                             "I'm enjoying coding",
                             "I'm a programmer",
@@ -25,8 +27,10 @@ function Home() {
                         <div className="icons" style={{color: "white"}}>
                             <a href='https://www.linkedin.com/in/riya-bhurse-2120781b7/'><BsLinkedin/></a>
                             <a href='https://github.com/RiyaBhurse?tab=repositories'><BsGithub/></a>
-                            <a href='mailto:riyabhurse.rb@gmail.com'> <SiGmail/> </a>
-                            <a href='https://leetcode.com/u/Riyaaa9/'><SiLeetcode/></a>
+                            <a href="mailto:riyabhurse.rb@gmail.com"> <SiGmail/> </a>
+                            <a href="https://leetcode.com/u/Riyaaa9/"><SiLeetcode/></a>
+                            <a href="https://www.youtube.com/channel/UCV4F9Uc-l0NLZ9bC1PBY6kg"><BsYoutube/></a>
+                            <a href="https://x.com/RiyaBhurse66653"><BsTwitterX/></a>
                         </div>
                     </div>    
                    

@@ -1,14 +1,16 @@
+/* NavBar.css */
+
 header {
     position: sticky;
     top: 0;
-}
-
-nav{
+  }
+  
+  nav {
     height: 100%;
     width: 100%;
-}
-
-.NavBar{
+  }
+  
+  .NavBar {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -16,46 +18,50 @@ nav{
     margin: 0;
     padding: 0;
     background-color: #333; /* Add a background color to make it stand out */
-    /*position: fixed; /* Fix the navbar to the top */
-    /*top: 0; /* Align it to the top */
     width: 100%; /* Make it span the full width of the page */
     z-index: 1000; /* Ensure it stays above other content */
     height: 80px;
-
-    
-    
-}
-.NavItem{
+  }
+  
+  .NavItem {
     margin: 0 15px;
-}
-.NavItem a{
+  }
+  
+  .NavItem a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 5px 0;
     position: relative;
     font-size: 2em;
-    font-display: bold;
-}
-
-
-.NavItem a::after {
+  }
+  
+  .NavItem a::after {
     content: "";
     display: block;
-    height: 2px;
+    height: 5px;
     width: 0%;
     background-color: rgb(255, 255, 255);
     transition: width 0.5s ease;
-}
-.NavItem a:hover::after {
-    width: 100%;  /* Change width to a larger value on hover */
-}
-.NavItem a.active::after {
-    width: 100%;  /* Change width to a larger value on hover */
-}
-.icon{
-    height: 70px;
-    width: 60px;
-    padding-bottom: 10px;
-}
-
-
+  }
+  
+  .NavItem a:hover::after,
+  .NavItem.active a::after{
+    width: 50%;  /* Change width to a larger value on hover */
+  }
+  
+  .NavItem.active a::after {
+    width: 100%;  /* Change width to 100% on click */
+  }
+  
+  /* Media query for smaller screens (mobile) */
+  @media (max-width: 610px) {
+    .NavItem {
+      font-size: smaller;
+      flex-shrink: 2;
+    }
+  
+    .NavItem a {
+      font-size: 1em; /* Adjust font size */
+    }
+  }
+  

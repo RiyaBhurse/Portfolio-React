@@ -20,3 +20,37 @@
     justify-content: center;
     gap: 50px;
 }
+
+/* Media query for smaller screens (mobile) */
+@media (max-width: 600px) {
+    .Skills {
+        font-size: 2rem;
+    }
+    .skillIcon{
+        font-size: 20px;
+    }
+}
+.skills-container {
+    padding: 20px;
+    color: white;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .skills-container {
+      padding: 10px;
+    }
+  
+    .skills-list li {
+      font-size: 0.9rem;
+    }
+  }
+  

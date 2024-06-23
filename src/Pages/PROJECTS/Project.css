@@ -22,3 +22,30 @@
     justify-content: center; 
     width: 100%;
 }
+/* Project.css */
+
+/* Projects page specific styles */
+.projects-container {
+    padding: 20px;
+    color: white;
+  }
+  
+  .projects-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects-list li {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .projects-container {
+      padding: 10px;
+    }
+  
+    .projects-list li {
+      font-size: 0.9rem;
+    }
+  }
+  

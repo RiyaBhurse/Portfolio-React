@@ -1,9 +1,11 @@
-import "./About.css";
-function About({ header, img, text, link,position,bgColor }) {
+import "./About.css"
+function About({ header, img, text}) {
   return (
     
-    <div className={`About  ${position} ${bgColor}`}>
-      
+    <div className={`About`}>
+      <div className="img-parent">
+        <img src={img} className="img"/>
+      </div>
       <div className="text-parent">
         {header ? (<h2>{header}</h2>)  : ""}
 
@@ -11,9 +13,6 @@ function About({ header, img, text, link,position,bgColor }) {
           {text}
         </div>
 
-      </div>
-      <div className="img-parent">
-        <img src={img} className="img"/>
       </div>
 
     </div>

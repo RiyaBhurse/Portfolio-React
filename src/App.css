@@ -24,3 +24,32 @@ h2{
   color: white;
   font-size: 20px;
 }
+
+.AboutUl {
+  list-style-type: none; /* Remove default list styling */
+  text-align: left; /* Align text to the left */
+}
+
+
+.ytLink {
+  display: inline;
+}
+
+.yt {
+  font-size: 2rem; /* Example font size */
+  text-decoration: none; /* Remove underline from link */
+  color: white; /* Link color */
+}
+
+.yt:hover {
+  color: rgb(255, 0, 0); /* Change link color on hover */
+}
+
+@media (max-width: 600px) {
+  .App-header {
+    font-size: 2em; 
+    height: 100vh; 
+    width: 100vw; 
+  }
+}
+

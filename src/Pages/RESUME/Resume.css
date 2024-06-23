@@ -1,0 +1,22 @@
+/* Resume.css */
+
+/* Resume page specific styles */
+.resume-container {
+    padding: 20px;
+    color: white;
+  }
+  
+  .resume-content {
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    .resume-container {
+      padding: 10px;
+    }
+  
+    .resume-content {
+      font-size: 0.9rem;
+    }
+  }
+  
