@@ -36,9 +36,9 @@ function App() {
                       <li>I enjoy exploring AI/ML,</li>
                       <li>I enjoy Problem Solving.</li>
                     </ul>
+                    <h4>I have a deep passion for nature and animals and I'm eager to build something meaningful for their benefit.</h4>
                     <h4 className='ytLink'>Also I enjoy creating content on Youtube: </h4>
                     <a className='yt' href="https://www.youtube.com/channel/UCV4F9Uc-l0NLZ9bC1PBY6kg"> <BsYoutube /> </a>
-                    <h4>I have a deep passion for nature and animals and I'm eager to build something meaningful for their benefit.</h4>
                   </div>
                 )}
                 link={"https://www.scaler.com/"}
