@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: black;
+  font-family: 'Arial', sans-serif; /* Add a professional font */
 }
 
 .App-header {
@@ -14,42 +15,52 @@
   color: white;
 }
 
-h1{
+h1 {
   color: aliceblue;
-} 
-h2{
-  font-size: 30px;
 }
-.text{
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.text {
   color: white;
   font-size: 20px;
 }
 
 .AboutUl {
-  list-style-type: none; /* Remove default list styling */
-  text-align: left; /* Align text to the left */
+  list-style-type: none;
+  text-align: left;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
 }
 
+.AboutUl li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
 
 .ytLink {
-  display: inline;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .yt {
-  font-size: 2rem; /* Example font size */
-  text-decoration: none; /* Remove underline from link */
-  color: white; /* Link color */
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px; /* Add spacing between the text and the icon */
 }
 
 .yt:hover {
-  color: rgb(255, 0, 0); /* Change link color on hover */
+  color: rgb(255, 0, 0);
 }
 
 @media (max-width: 600px) {
   .App-header {
-    font-size: 2em; 
-    height: 100vh; 
-    width: 100vw; 
+    font-size: 2em;
+    height: 100vh;
+    width: 100vw;
   }
 }
-

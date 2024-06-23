@@ -1,96 +1,62 @@
 .tile {
     display: flex;
-}
-
-.tile.img-right {
+  }
+  
+  .tile.img-right {
     /* flex-direction: row-reverse; */
-}
-
-.About {
+  }
+  
+  .About {
     display: flex;
+    flex-direction: column; /* Change to column for a vertical layout */
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: rgb(0, 0, 0);
-    color: white; /* Ensure text is visible */
-    overflow: hidden; /* Prevent content overflow */
-    padding: 20px; /* Add padding for spacing */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
-}
-.text-parent {
+    color: white;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .text-parent {
     display: flex;
     flex-direction: column;
-    /* text-overflow: ellipsis; */
-    /* overflow:  */
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 100%;
-    color: rgb(255, 255, 255);
-}
-.tile.img-parent {
-    /* display: flex; */
-    right: 0;
+    width: 80%; /* Adjust width for better responsiveness */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px; /* Add spacing below text parent */
+  }
+  
+  .img-parent {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.img{
-    margin-left: 30px;
-    width: 400;
-    height: 400px;
+    margin-bottom: 20px; /* Add spacing below image */
+  }
+  
+  .img {
+    width: 200px; /* Adjust image size */
+    height: 200px;
     border-radius: 50%;
-    border: 3px solid rgb(0, 0, 0);
-}
-
-.red {
-    background-color: rgb(0, 0, 0);
-}
-
-.black {
-    background-color: black;
-}
-
-.green {
-    background-color: green;
-}
-/* Media query for smaller screens (mobile) */
-@media (max-width: 800px) {
-    .About {
-        flex-direction: column;
-    }
-    .text-parent {
-        width: 100%;
-    }
-    .img {
-        width: 300px;
-        height: 300px;
-    }
-}
-/* About.css */
-
-/* About page specific styles */
-.about-container {
-    padding: 20px;
-    color: white;
-    text-align: left;
+    border: 3px solid rgb(255, 255, 255);
   }
   
-  .about-img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  @media (max-width: 768px) {
-    .about-container {
-      padding: 10px;
-    }
-  }
   @media (max-width: 800px) {
-    .img {
-        width: 9rem;
-        height: 9rem;
-        margin-top: 8rem;
+    .About {
+      flex-direction: column;
+      text-align: center; /* Center text on smaller screens */
     }
-}
+  
+    .text-parent {
+      width: 100%;
+    }
+  
+    .img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
