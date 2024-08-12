@@ -10,7 +10,7 @@ function Tile({header, img, text, link}){
             {text}
         </div>
         <div className="link-parent">
-            <a href={link} className="link"><button>Github</button></a>
+            <a href={link} className="link"><button>Check out</button></a>
         </div>
     </div>
         
