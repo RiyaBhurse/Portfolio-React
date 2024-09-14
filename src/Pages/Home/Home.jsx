@@ -15,14 +15,13 @@ function Home() {
                     <h1 className="nameDiv">Riya Bhurse</h1>
                     <Typing
                         text={[
-                            "I'm a software engineer",
-                            "I'm Loving DSA",
-                            "I'm enjoying coding",
-                            "I'm a programmer",
-                            "I'm full stack developer"
+                            "I'm a Software Engineer",
+                            "I'm passionate about DSA",
+                            "I'm enjoying coding every day",
+                            "I'm a dedicated programmer",
+                            "I'm a Full Stack Developer"
                         ]}
-                                            
-                    /> 
+                    />
                     <div className='socialM'>
                         <div className="icons" style={{color: "white"}}>
                             <a href='https://www.linkedin.com/in/riya-bhurse-2120781b7/'><BsLinkedin/></a>

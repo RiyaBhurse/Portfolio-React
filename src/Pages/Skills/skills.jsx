@@ -16,14 +16,16 @@ import { SiExpress } from 'react-icons/si';
 import { SiTailwindcss } from 'react-icons/si';
 import { DiNodejs } from 'react-icons/di';
 import { FaFlask } from 'react-icons/fa';
+import { GrGoogle } from 'react-icons/gr';
+
 
 function Skills(){
     return (
         <>
         <div className="Skills"> Skills 
         <div className='skillIcon'>
-        I love to learn new things and experiment with new technologies.
-        These are some of the major languages, technologies, tools and platforms I have worked with:
+        I have a passion for learning and experimenting with emerging technologies. 
+        Below are some of the key languages, tools, platforms, and technologies I have experience with:
             <div className='innerIconSkill'><SiPython/> Python </div>
             <div className='innerIconSkill'><SiJavascript/> JavaScript </div>
             <div className='innerIconSkill'><SiReact/> React </div>
@@ -41,6 +43,7 @@ function Skills(){
             <div className='innerIconSkill'><SiTailwindcss/> Tailwind CSS </div>          
             <div className='innerIconSkill'><DiNodejs/> NodeJs </div>
             <div className='innerIconSkill'><FaFlask/> Flask </div>
+            <div className='innerIconSkill'><GrGoogle/> Generative AI </div>
         </div>
         </div>
         </>
