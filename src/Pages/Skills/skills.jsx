@@ -10,6 +10,12 @@ import { SiSpringboot } from 'react-icons/si';
 import { BiMath } from 'react-icons/bi';
 import {SiTreehouse} from 'react-icons/si';
 import { DiRasberryPi } from 'react-icons/di';
+import { DiMongodb } from 'react-icons/di';
+import { SiFirebase } from 'react-icons/si';
+import { SiExpress } from 'react-icons/si';
+import { SiTailwindcss } from 'react-icons/si';
+import { DiNodejs } from 'react-icons/di';
+import { FaFlask } from 'react-icons/fa';
 
 function Skills(){
     return (
@@ -28,7 +34,13 @@ function Skills(){
             <div className='innerIconSkill'><SiSpringboot/> Springboot </div><br/>
             <div className='innerIconSkill'><BiMath/> OOP </div>
             <div className='innerIconSkill'><SiTreehouse/> DSA </div>
-            <div className='innerIconSkill'><DiRasberryPi/> Raspberry Pi </div>           
+            <div className='innerIconSkill'><DiRasberryPi/> Raspberry Pi </div> 
+            <div className='innerIconSkill'><DiMongodb/> MongoDB </div><br/>
+            <div className='innerIconSkill'><SiFirebase/> Firebase </div>
+            <div className='innerIconSkill'><SiExpress/> Express </div>
+            <div className='innerIconSkill'><SiTailwindcss/> Tailwind CSS </div>          
+            <div className='innerIconSkill'><DiNodejs/> NodeJs </div>
+            <div className='innerIconSkill'><FaFlask/> Flask </div>
         </div>
         </div>
         </>
